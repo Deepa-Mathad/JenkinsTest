@@ -1,0 +1,11 @@
+---
+Checks:          '-*,fusion-qwidget'
+WarningsAsErrors: ''
+HeaderFilterRegex: '^((.*\/fusion360\/3P)).*$'
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+CheckOptions:
+  - key:             fusion-qwidget.IPAddress
+    value:           127.0.0.1
+  - key:             fusion-qwidget.Port
+    value:           '3490'
